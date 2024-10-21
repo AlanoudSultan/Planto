@@ -19,6 +19,8 @@ struct Splash: View {
        
             if isActive {
                 Main()
+                
+                
             }
             else{
                 ZStack{
