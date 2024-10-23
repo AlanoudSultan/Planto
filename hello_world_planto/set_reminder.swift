@@ -78,7 +78,7 @@ struct SetReminderView: View {
                         }
                     }
                 }
-                .accentColor(.gray) // Change the accent color to white
+                .accentColor(.gray)
                 
                 .navigationBarTitle("Set Reminder", displayMode: .inline)
                 
