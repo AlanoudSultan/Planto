@@ -23,6 +23,7 @@ struct SetReminderView: View {
                             Text("Plant Name").foregroundColor(.white)
                             TextField("Pothos", text: $plantName)
                                 .foregroundColor(plantName.isEmpty ? .gray : .white)
+                                .tint(Color("green"))
                         }
                     }
                     
