@@ -1,4 +1,4 @@
-# Planto - Plant Care Reminders🌿
+# 🌿 Planto - Plant Care Reminders
 
 
 ## 🌿 Overview
