@@ -1,7 +1,5 @@
 
-
 import SwiftUI
-
 
 struct Splash: View {
 //نعرف متغير
@@ -22,7 +20,7 @@ var body: some View {
             
             
             VStack{
-                Image("plant")
+                Image("Planto")
                     .resizable()
                     .frame(width: 120,height: 130)
                     .cornerRadius(20)
@@ -31,6 +29,7 @@ var body: some View {
                 Text("Planto")
                     .font(.system(size: 50))
                     .fontWeight(.bold)
+                
                     .foregroundColor(Color.white)
                 Text("")
                 Text("Plant Care reminders 🌿")
@@ -62,5 +61,7 @@ var body: some View {
 }
 
 #Preview {
-    Splash()
+Splash()
 }
+
+

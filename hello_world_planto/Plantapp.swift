@@ -10,7 +10,7 @@ import SwiftUI
 struct hello_world_planto : App {
     var body: some Scene {
         WindowGroup {
-            Today_Reminder().colorScheme(.dark)
+            Main()
         }
     }
 }
